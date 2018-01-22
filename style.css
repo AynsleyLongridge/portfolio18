@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+
+
+p, h1, h2, h3, a, table, image
+{
+    width:100%;
+    font-size: 90%;
+    font-family: 'PT Sans', sans-serif;
+    margin: auto;
+    background-color: none;
+    color: black;
+    line-height: 1em;
+
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #fda788;
+  line-height: 1.5;
+}
+
+.page-wrapper {
+  display: block;
+  width: calc(100% - 10%);
+  margin: 0 auto;
+}
+
+.header-container {
+  width: 80%;
+}
+
+.header-container img {
+  opacity: 100;
+  -webkit-transition: opacity 1s linear;
+  transition: opacity 1s linear;
+}
+
+
+@media screen and (max-width: 1280px) {
+
+.content-wrapper {
+  background: #fff;
+  width: 100%;
+  height: auto;
+}
+}
+
+nav {
+  height: 100px;
+  
+}
+
+nav ul {
+  height: 100px;
+  background-color: #f7f7f7;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -o-display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  font-size: 18px;
+  -webkit-transition: height 0.2s linear;
+  transition: height 0.2s linear;
+  -webkit-transition: font 0.2s linear;
+  transition: font 0.2s linear;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #636363;
+font-weight: 200;
+  letter-spacing: 0.25em;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background: #fff;
+}
+
+@media screen and (max-width: 1280px) {
+  nav ul li a {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 740px) {
+  nav {
+   
+  }
+}
+/* ----- SECTION01 ----- */
+.section01 {
+  padding: 8% 8%;
+  border-bottom: 1px solid #ccc;
+}
+
+.section01-container {
+  -webkit-display: flex;
+  -moz-display: flex;
+  -o-display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 960px) {
+  .section01-container {
+    -webkit-display: flex;
+    -moz-display: flex;
+    -o-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+
+/*-----------NAV---------
+
+
+nav {
+    background: ;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    margin: auto 0;
+    padding: 1.5em 0;
+
+}
+
+nav ul {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: dimgrey;
+    border-bottom: none;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+/*-----------INDEX---------*/
+
+.main {
+    background-image: url(cactus.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%
+}
+
+.maintext {
+    margin: 100px;
+    top:50%;
+    transform: translateY(-50%);
+    
+}
+
+h1 {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4.5em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+h2 {
+    color: black;
+    text-transform: auto;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 1em;
+    line-height: 3em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    padding-top: 3em;
+}
+/*-------INDEX-----------------*/
+
+.bannerimage {
+        height: 100vh;
+    background-image: url(cactus.jpg);
+    position: sticky;
+    top: 0;
+    }
+/*-----------ABOUT---------*/
+
+.row {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+}
+
+.left {
+    
+    height: 100vh;
+    background-image: url(cactus.jpg);
+    position: sticky;
+    top: 0;
+}
+
+.right {
+    height: 100vh;
+    background-color: ;
+    position: sticky;
+    top: 0;
+    padding: 3em;
+}

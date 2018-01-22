@@ -1,0 +1,241 @@
+@font-face {
+    @font-face {
+    font-family: 'MyriadPro-Regular_0';
+    src: url("css/MyriadPro-Regular_0.otf");
+}
+}
+
+body {
+   margin: 0;
+   margin-left: 4%;
+margin-right: 4%;
+    margin-bottom: 50px;
+   padding: 0;
+   font-family: 'MyriadPro-Regular_0', sans-serif;
+   background-color: #e5e5e5;
+}
+
+header {
+    background-color: white;
+}
+
+/*-------------NAV-------------*/
+nav {
+    background: white;
+    color: black;
+    opacity: 0.6;
+    top: 0;
+    width: 100%;
+    margin: auto 0;
+    padding: 1em 0;
+    margin-bottom: 60px;
+
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 3px;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: black;
+    border-bottom: none;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+
+/*------------MAIN--------------*/
+
+.mark2 {
+    width: 35%;
+}
+/*--------------POSTS-----------*/
+
+html {
+  background: white;
+  font-size: 14px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  min-width: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  color: #666;
+  font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+
+
+div, h2, p, figure {
+  margin: 0;
+  padding: 0;
+    
+}
+
+header {
+  color: black;
+   background-color: none;
+  padding: 80px 0 80px;
+  text-align: center;
+  align-content: center;
+    
+}
+
+header h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+    text-align: center;
+  
+}
+
+header h2 a {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: white;
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+header h2 a:hover {
+  border-bottom-color: white;
+  opacity: 1;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 1040px;
+  padding: 10px;
+}
+
+.column {
+  flex: 1;
+  flex-direction: column;
+}
+
+.article {
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.14);
+  color: #666;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-basis: auto;
+  margin: 10px;
+}
+
+.article:hover,
+.article:focus {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 5px 5px rgba(0, 0, 0, 0.12);
+  color: #444;
+}
+
+.article-image {
+  background: #eee;
+  display: block;
+  padding-top: 75%;
+  position: relative;
+  width: 100%;
+}
+
+.article-image img {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.article-image.is-3by2 {
+  padding-top: 66.6666%;
+}
+
+.article-image.is-16by9 {
+  padding-top: 56.25%;
+}
+
+.article-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.article-title {
+  color: #333;
+  flex-shrink: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.article-content {
+  flex: 1;
+  margin-top: 5px;
+}
+
+.article-info {
+  display: flex;
+  font-size: 0.85em;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 800px) {
+  .columns,
+  .column {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .first-article {
+    flex-direction: row;
+  }
+
+  .first-article .article-body {
+    flex: 1;
+  }
+
+  .first-article .article-image {
+    height: 300px;
+    order: 2;
+    padding-top: 0;
+    width: 400px;
+  }
+
+  .main-column {
+    flex: 3;
+  }
+
+  .nested-column {
+    flex: 2;
+  }
+}
+
+
+/*--------------footer-----------*/
+
+footer {
+    text-align: center;
+}
